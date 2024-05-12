@@ -17,7 +17,6 @@ export default defineConfig((_opt: UserConfig) => {
     define: {
       __VERSION__: JSON.stringify({})
     },
-
     plugins: [
       vue(),
       vueJsx(),
@@ -27,9 +26,9 @@ export default defineConfig((_opt: UserConfig) => {
         entry: 'src/main.ts',
         inject: {
           data: {
-            title: '火车轨道模拟器', // 网页标题
-            description: '火车轨道模拟器', // 网页描述
-            keywords: '火车轨道模拟器' // 网页关键字
+            title: 'Blanc Nova Vue3 Template',
+            description: 'Blanc Nova Vue3 Template', // 网页描述
+            keywords: 'Blanc Nova Vue3 Template' // 网页关键字
           }
         }
       }),
