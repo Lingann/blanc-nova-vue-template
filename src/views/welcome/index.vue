@@ -1,6 +1,6 @@
 <template>
   <!-- 使用TailwindCSS 写一个美丽的欢迎页面 -->
-  <div class="flex items-center justify-center h-screen bg-gray-100">
+  <div class="flex items-center justify-center h-screen w-screen bg-gray-100">
     <div class="bg-white p-8 rounded-lg shadow-lg">
       <h1 class="text-4xl font-bold text-gray-800">
         Welcome to Blanc Nova Vue 3 Template
